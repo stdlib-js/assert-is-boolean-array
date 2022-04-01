@@ -1,0 +1,39 @@
+{
+  "name": "@stdlib/assert-is-boolean-array",
+  "version": "0.0.0",
+  "description": "Test if a value is an array-like object of booleans.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/assert-is-boolean-array.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdassert",
+    "assertion",
+    "assert",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "boolean",
+    "array",
+    "is",
+    "isboolean",
+    "isarray",
+    "type",
+    "check",
+    "valid",
+    "validate",
+    "test"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
