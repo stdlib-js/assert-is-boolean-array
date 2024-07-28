@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean-array@esm/index.mjs';
+import isBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean-array@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { objects, primitives } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean-array@esm/index.mjs';
+import { objects, primitives } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean-array@v0.2.2-esm/index.mjs';
 ```
 
 #### isBooleanArray( value )
@@ -111,7 +111,7 @@ bool = isBooleanArray.objects( [ new Boolean( false ), true ] );
 <script type="module">
 
 import Boolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/boolean-ctor@esm/index.mjs';
-import isBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean-array@esm/index.mjs';
+import isBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean-array@v0.2.2-esm/index.mjs';
 
 var bool = isBooleanArray( [ true, false ] );
 // returns true
