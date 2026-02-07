@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean-array@deno/mod.js';
+import isBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean-array@v0.2.3-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { objects, primitives } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean-array@deno/mod.js';
+import { objects, primitives } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean-array@v0.2.3-deno/mod.js';
 ```
 
 #### isBooleanArray( value )
@@ -106,7 +106,7 @@ bool = isBooleanArray.objects( [ new Boolean( false ), true ] );
 
 ```javascript
 import Boolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/boolean-ctor@deno/mod.js';
-import isBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean-array@deno/mod.js';
+import isBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean-array@v0.2.3-deno/mod.js';
 
 var bool = isBooleanArray( [ true, false ] );
 // returns true
